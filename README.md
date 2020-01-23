@@ -59,8 +59,9 @@ Example: python side-channel-detection.py -b /bin/ls -p ~/Tools/linux/tools/perf
 Results
 -----------------------
 In the "results" folder, the detection statistic is stored in the "[binary].performance" file. 
+
 The detailed information about these results are stored in separate files as following:
-[binary].pageorder.result:	The page level order-based results
-[binary].cacheorder.result:	The cache level order-based results
-[binary].page.result.big:	The page level nodes, which is vulnerable to time-based attack, not vulnerable to order-based attack
-[binary].cache.result.big:	The cache level nodes, which is vulnerable to time-based attack, not vulnerable to order-based attack
+  [binary].pageorder.result:	The page level order-based results
+  [binary].cacheorder.result:	The cache level order-based results
+  [binary].page.result.big:	The page level nodes, which is vulnerable to time-based attack, not vulnerable to order-based attack
+  [binary].cache.result.big:	The cache level nodes, which is vulnerable to time-based attack, not vulnerable to order-based attack
